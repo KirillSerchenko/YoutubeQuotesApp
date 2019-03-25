@@ -1,0 +1,6 @@
+.fade-in{-webkit-animation:fade-in 5s cubic-bezier(.39,.575,.565,1.000) 1s both;animation:fade-in 5s cubic-bezier(.39,.575,.565,1.000) 1s both}
+ @-webkit-keyframes fade-in{0%{opacity:0}100%{opacity:1}}@keyframes fade-in{0%{opacity:0}100%{opacity:1}}
+
+
+ .scale-in-center{-webkit-animation:scale-in-center 2s cubic-bezier(.55,.085,.68,.53) 2s both;animation:scale-in-center 2s cubic-bezier(.55,.085,.68,.53) 1s both}
+@-webkit-keyframes scale-in-center{0%{-webkit-transform:scale(0);transform:scale(0);opacity:1}100%{-webkit-transform:scale(1);transform:scale(1);opacity:1}}@keyframes scale-in-center{0%{-webkit-transform:scale(0);transform:scale(0);opacity:1}100%{-webkit-transform:scale(1);transform:scale(1);opacity:1}}

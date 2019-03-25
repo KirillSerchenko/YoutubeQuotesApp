@@ -1,0 +1,12 @@
+.list-group-item-success{
+    
+    color:black;
+    transition:border 0.5s linear,background-color 0.5s linear,color 0.5s linear,transform 0.5s linear;
+}
+
+.list-group-item-success:hover{
+    transform:scale(1.1);
+    background-color: green;
+    color:white; 
+    border-bottom:solid 3px black;
+}
